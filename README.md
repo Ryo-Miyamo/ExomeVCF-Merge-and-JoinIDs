@@ -1,20 +1,20 @@
-## Rename_filename.sh
-Rename the .vcf filenames.
+##### Rename_filename.sh
+Renames .vcf files.
 
-## Rename_sample_name_in_vcf_header.sh
-Rename sample name in vcf header.
+##### Rename_sample_name_in_vcf_header.sh
+Updates sample names in the VCF header.
 
-## VCF_region_select.sh
-Extract regions of interest from vcf.
+##### VCF_region_select.sh
+Extracts specific regions of interest from a VCF file.
 
-## VC_merge.sh
-Use "bcftools merge".
+##### VC_merge.sh
+Merges VCF files using bcftools merge.
 
-## Create_info_ID_group_list.sh
-A correspondence table of "Otherinfo[num]", "SampleID", and "[SampleGroup]SampleID".
+##### Create_info_ID_group_list.sh
+Generates a correspondence table for "Otherinfo[num]", "SampleID", and "[SampleGroup]SampleID".
 
-## annot_txt_add_IDstrings_step01.sh
-Convert GT fields to ".", "(het)", or "(hom)".
+##### annot_txt_add_IDstrings_step01.sh
+Converts GT fields to ".", "(het)", or "(hom)".
 
-## annot_txt_add_IDstrings_step02.py
-Putting together "[SampleGroup]SampleID(GT)" strings to a string.
+##### annot_txt_add_IDstrings_step02.py
+Assembles "[SampleGroup]SampleID(GT)" strings into a single string.
