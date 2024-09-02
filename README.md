@@ -14,7 +14,7 @@ Merges VCF files using bcftools merge.
 Generates a correspondence table for "Otherinfo[num]", "SampleID", and "[SampleGroup]SampleID".
 
 ##### annot_txt_add_IDstrings_step01.sh
-Converts GT fields to ".", "(het)", or "(hom)".
+Converts GT fields in "multianno.txt" to ".", "(het)", or "(hom)".
 
 ##### annot_txt_add_IDstrings_step02.py
 Assembles "[SampleGroup]SampleID(GT)" strings into a single string.
